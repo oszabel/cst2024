@@ -109,6 +109,12 @@ body {
     
 }
 
+.container > h2 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
 .item1 {
     grid-row-start: 1;
     grid-row-end: 1;
@@ -145,14 +151,14 @@ body {
     padding: 5px;
 }
 
-/* .item5 {
+.item5 {
     grid-row-start: 5;
     grid-row-end: 5;
     grid-column-start: 1;
     grid-column-end: 6;
     text-align: center;
     padding: 5px;
-} */
+}
 
 .item-w-1 {
     grid-row-start: 1;
@@ -273,6 +279,11 @@ body {
     border-radius: 5px;
 }
 
+#bg .score-btn {
+    padding: 5px 25px;
+    font-size: 18px;
+}
+
 #bg a:hover {
     color: var(--main-color);
     background-color: var(--bg-color);
@@ -299,6 +310,78 @@ body {
 .item-bg-3 {
     grid-row-start: 3;
     grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-bg-4 {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-bg-5 {
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-bg-6 {
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-bg-7 {
+    grid-row-start: 7;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-bg-8 {
+    grid-row-start: 8;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-bg-9 {
+    grid-row-start: 9;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-bg-10 {
+    grid-row-start: 10;
+    grid-row-end: 10;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-bg-11 {
+    grid-row-start: 11;
+    grid-row-end: 11;
     grid-column-start: 1;
     grid-column-end: 9;
     text-align: center;
@@ -342,5 +425,9 @@ button:hover {
     }
     #bg h2 {
         font-size: 20px;
+    }
+    #bg .score-btn {
+        font-size: 16px;
+        padding: 5px 15px;
     }
 }
